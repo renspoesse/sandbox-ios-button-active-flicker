@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Toggle {
+  background: lightgray;
+  display: block;
+  width: 100px;
+  height: 50px;
+  outline: 0;
+  position: relative;
+}
+
+.Toggle:active {
+  background: pink;
+  width: 50px;
+}
+
+.Toggle-checked {
+  background: lightblue;
+  width: 50px;
+}
